@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-brown: #3B2A1A;
+  --color-dark-brown: #2A1B0F;
+  --color-antique-gold: #C6A75E;
+  --color-metallic-brass: #B08D57;
+  --color-soft-cream: #F5E6C8;
+  --color-black-accent: #111111;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px #C6A75E, 0 0 10px #C6A75E;
+    }
+
+    to {
+      box-shadow: 0 0 20px #C6A75E, 0 0 30px #B08D57;
+    }
+  }
+}
+
+:root {
+  --background: #2A1B0F;
+  --foreground: #F5E6C8;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+}
+
+.brass-gradient {
+  background: linear-gradient(135deg, #3B2A1A 0%, #2A1B0F 100%);
+}
+
+.gold-text {
+  color: #C6A75E;
+  background: linear-gradient(to right, #C6A75E, #B08D57);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-glow:hover {
+  filter: drop-shadow(0 0 10px #C6A75E);
+  transition: all 0.3s ease;
+}

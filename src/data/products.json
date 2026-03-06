@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Brass Ganesha Idol",
+    "description": "Handcrafted antique brass Ganesha for home decor, symbolizing wisdom and prosperity.",
+    "price": 2499,
+    "image": "/product-images/vandana-elephant.jpeg",
+    "flipkart_url": "https://www.flipkart.com/viewcheckout?loginFlow=false&checkoutInitiated=true",
+    "is_available": true
+  },
+  {
+    "id": 2,
+    "name": "Antique Brass Diya",
+    "description": "Exquisite golden brass oil lamp for spiritual lighting and traditional ambiance.",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1605333396915-47ed6b68a00e?q=80&w=800",
+    "flipkart_url": "https://www.flipkart.com/search?q=brass+diya",
+    "is_available": true
+  },
+  {
+    "id": 3,
+    "name": "Brass Peacok Figurine",
+    "description": "Royal brass peacock with intricate carving for a majestic living room aesthetic.",
+    "price": 3299,
+    "image": "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=800",
+    "flipkart_url": "https://www.flipkart.com/search?q=brass+peacock",
+    "is_available": false
+  }
+]
