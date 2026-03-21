@@ -1,32 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary-brown: #3B2A1A;
-  --color-dark-brown: #2A1B0F;
-  --color-antique-gold: #C6A75E;
-  --color-metallic-brass: #B08D57;
-  --color-soft-cream: #F5E6C8;
-  --color-black-accent: #111111;
-
+  --color-watercolor-coral: #FF8080;
+  --color-watercolor-peach: #FFF5E1;
+  --color-watercolor-rose: #FFE4E1;
+  --color-deep-redwood: #4A1E1B;
+  --color-vibrant-coral: #FF6B6B;
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
-
   --animate-glow: glow 2s ease-in-out infinite alternate;
 
   @keyframes glow {
     from {
-      box-shadow: 0 0 5px #C6A75E, 0 0 10px #C6A75E;
+      box-shadow: 0 0 5px #FF6B6B, 0 0 10px #FF6B6B;
     }
 
     to {
-      box-shadow: 0 0 20px #C6A75E, 0 0 30px #B08D57;
+      box-shadow: 0 0 20px #FF6B6B, 0 0 30px #FF8080;
     }
   }
 }
 
 :root {
-  --background: #2A1B0F;
-  --foreground: #F5E6C8;
+  --background: #FFF5E1;
+  --foreground: #4A1E1B;
 }
 
 body {
@@ -45,19 +42,14 @@ h6 {
   font-family: var(--font-serif);
 }
 
-.brass-gradient {
-  background: linear-gradient(135deg, #3B2A1A 0%, #2A1B0F 100%);
+.watercolor-gradient {
+  background: linear-gradient(180deg, #FF8080 0%, #FFF5E1 50%, #FFE4E1 100%);
 }
 
-.gold-text {
-  color: #C6A75E;
-  background: linear-gradient(to right, #C6A75E, #B08D57);
+.primary-text {
+  color: #4A1E1B;
+  background: linear-gradient(to right, #4A1E1B, #FF6B6B);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.gold-glow:hover {
-  filter: drop-shadow(0 0 10px #C6A75E);
-  transition: all 0.3s ease;
 }
