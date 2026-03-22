@@ -1,6 +1,7 @@
 "use client";
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { ExternalLink } from 'lucide-react';
 
 interface ProductProps {
     product: {
@@ -41,28 +42,43 @@ const ProductCard = ({ product }: ProductProps) => {
                 <h3 className="text-xl font-serif font-bold text-deep-redwood group-hover:text-vibrant-coral transition-colors">
                     {product.name}
                 </h3>
-                <span className="text-vibrant-coral font-bold">₹{product.price.toLocaleString()}</span>
+                {product.flipkart_url ? (
+                    <a
+                        href={product.flipkart_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-vibrant-coral font-bold text-xs hover:underline flex items-center gap-1 text-right max-w-[120px]"
+                    >
+                        Show exciting offer on Flipkart
+                        <ExternalLink size={12} />
+                    </a>
+                ) : (
+                    <div className="text-vibrant-coral/50 font-bold text-[10px] uppercase tracking-tighter text-right">
+                        Curating Best <br /> Deals...
+                    </div>
+                )}
             </div>
 
             <p className="text-deep-redwood/60 text-sm mb-6 line-clamp-2">
                 {product.description}
             </p>
 
-            {product.is_available ? (
+            {product.is_available && product.flipkart_url ? (
                 <a
                     href={product.flipkart_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full text-center bg-vibrant-coral text-white py-3 rounded-xl font-bold hover:animate-glow transition-all"
+                    className="flex items-center justify-center gap-2 w-full bg-vibrant-coral text-white py-3 rounded-xl font-bold hover:animate-glow transition-all"
                 >
                     Buy Now on Flipkart
+                    <ExternalLink size={18} />
                 </a>
             ) : (
                 <button
                     disabled
                     className="w-full bg-deep-redwood/5 text-deep-redwood/30 py-3 rounded-xl font-bold cursor-not-allowed border border-deep-redwood/10"
                 >
-                    Out of Stock
+                    {product.flipkart_url ? "Out of Stock" : "Coming Soon"}
                 </button>
             )}
         </motion.div>

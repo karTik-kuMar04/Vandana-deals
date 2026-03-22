@@ -1,29 +1,83 @@
 [
   {
     "id": 1,
-    "name": "Brass Ganesha Idol",
-    "description": "Handcrafted antique brass Ganesha for home decor, symbolizing wisdom and prosperity.",
+    "name": "Brass Elephant Statue",
+    "description": "Handcrafted antique brass elephant for home decor, symbolizing strength and prosperity.",
     "price": 2499,
     "image": "/product-images/vandana-elephant.jpeg",
     "flipkart_url": "https://www.flipkart.com/viewcheckout?loginFlow=false&checkoutInitiated=true",
     "is_available": true
   },
   {
-    "id": 2,
-    "name": "Antique Brass Diya",
-    "description": "Exquisite golden brass oil lamp for spiritual lighting and traditional ambiance.",
-    "price": 899,
-    "image": "https://images.unsplash.com/photo-1605333396915-47ed6b68a00e?q=80&w=800",
-    "flipkart_url": "https://www.flipkart.com/search?q=brass+diya",
+    "id": 4,
+    "name": "Brass Ganesha Idol",
+    "description": "Handcrafted antique brass Ganesha for home decor, symbolizing wisdom and prosperity.",
+    "price": 0,
+    "image": "/product-images/ganesha_idol.jpeg",
+    "flipkart_url": "",
     "is_available": true
   },
   {
-    "id": 3,
-    "name": "Brass Peacok Figurine",
-    "description": "Royal brass peacock with intricate carving for a majestic living room aesthetic.",
-    "price": 3299,
-    "image": "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=800",
-    "flipkart_url": "https://www.flipkart.com/search?q=brass+peacock",
-    "is_available": false
+    "id": 5,
+    "name": "Brass Ganga Maa Idol",
+    "description": "Exquisite brass Ganga Maa idol for spiritual purity and blessings.",
+    "price": 0,
+    "image": "/product-images/ganga_maa.jpeg",
+    "flipkart_url": "",
+    "is_available": true
+  },
+  {
+    "id": 6,
+    "name": "Brass Owl Statue",
+    "description": "Elegantly crafted brass owl statue, symbolizing wisdom and protection.",
+    "price": 0,
+    "image": "/product-images/owl.jpeg",
+    "flipkart_url": "https://www.flipkart.com/vandana-brass-owl-statue-home-dcor-antique-finish-vastu-feng-shui-showpiece-decorative-4-cm/p/itm18968bd686a93?pid=SHIHFM3BFAPCZSXP",
+    "is_available": true
+  },
+  {
+    "id": 7,
+    "name": "Brass Panchmukhi Hanuman Idol",
+    "description": "Powerful five-faced Hanuman idol in pure brass for strength and devotion.",
+    "price": 0,
+    "image": "/product-images/panchmukhi_hanuman.jpeg",
+    "flipkart_url": "https://www.flipkart.com/vandana-panchmukhi-hanuman-brass-murti-handcrafted-divine-idol-decorative-showpiece-6-cm/p/itm0362aa251b096?pid=SHIHFEBRCZUJCJFG",
+    "is_available": true
+  },
+  {
+    "id": 8,
+    "name": "Premanand Maharaj Figurine",
+    "description": "Beautifully detailed figurine of Saint Premanand Maharaj in premium brass.",
+    "price": 0,
+    "image": "/product-images/premanand_maharaj.jpeg",
+    "flipkart_url": "https://www.flipkart.com/muskan-divine-premanand-maharaj-murti-car-dashboard-home-decor-showpiece-decorative-8-cm/p/itma0877fe7344b2?pid=SHIHAYKT64BZC5UM",
+    "is_available": true
+  },
+  {
+    "id": 9,
+    "name": "Brass Radha Krishna Murti",
+    "description": "Spritual and artistic Radha Krishna murti, perfect for home temples and decor.",
+    "price": 0,
+    "image": "/product-images/radha_krishna.jpeg",
+    "flipkart_url": "https://www.flipkart.com/vandana-radha-krishna-brass-murti-elegant-handcrafted-idol-home-decor-gift-item-decorative-showpiece-7-cm/p/itmdb4e333e26677?pid=SHIHFMSFDGZF7EQQ",
+    "is_available": true
+  },
+  {
+    "id": 10,
+    "name": "Brass Feng Shui Tortoise",
+    "description": "Handcrafted brass tortoise for longevity, health, and positive energy flow.",
+    "price": 0,
+    "image": "/product-images/tortoise.jpeg",
+    "flipkart_url": "https://www.flipkart.com/vandana-vastu-brass-tortoise-statue-l-shubh-shastra-feng-shui-decorative-showpiece-5-cm/p/itmb8bbfbe80111d?pid=SHIHHH8U3E8SGV4Z",
+    "is_available": true
+  },
+  {
+    "id": 11,
+    "name": "Brass Vishnu Lakshmi Statue",
+    "description": "Divine Vishnu Lakshmi statue in pure brass, representing wealth and protection.",
+    "price": 0,
+    "image": "/product-images/vishnu_lakshmi.jpeg",
+    "flipkart_url": "https://www.flipkart.com/vandana-brass-vishnu-lakshmi-idol-handcrafted-antique-statue-vastu-pooja-room-decor-decorative-showpiece-7-cm/p/itmdb4e333e26677?pid=SHIHFM6GF9HSQFTA",
+    "is_available": true
   }
 ]

@@ -4,7 +4,7 @@
   --color-watercolor-coral: #FF8080;
   --color-watercolor-peach: #FFF5E1;
   --color-watercolor-rose: #FFE4E1;
-  --color-deep-redwood: #4A1E1B;
+  --color-deep-redwood: #FF6B6B;
   --color-vibrant-coral: #FF6B6B;
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
@@ -23,7 +23,7 @@
 
 :root {
   --background: #FFF5E1;
-  --foreground: #4A1E1B;
+  --foreground: #FF6B6B;
 }
 
 body {
@@ -47,8 +47,8 @@ h6 {
 }
 
 .primary-text {
-  color: #4A1E1B;
-  background: linear-gradient(to right, #4A1E1B, #FF6B6B);
+  color: #FF6B6B;
+  background: linear-gradient(to right, #FF6B6B, #FF6B6B);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
