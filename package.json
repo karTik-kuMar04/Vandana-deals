@@ -2,7 +2,7 @@
   "name": "vandana-deals",
   "version": "0.1.0",
   "private": true,
-  "scri": {
+  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
