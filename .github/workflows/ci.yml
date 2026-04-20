@@ -1,8 +1,8 @@
 name: CI Pipeline
 
 on:
-  pull_request:
-    branches: [main]
+  push:
+    branches: [feature_p1]
 
 jobs:
   build:
