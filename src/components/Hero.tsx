@@ -23,7 +23,7 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="text-5xl md:text-8xl font-serif font-bold primary-text mb-6 leading-tight"
                 >
-                    Timeless Brass. <br /> Eternal Devotion.
+                    Timeless Brass.. <br /> Eternal Devotion.
                 </motion.h1>
 
                 <motion.p
