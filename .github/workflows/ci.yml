@@ -1,8 +1,8 @@
 name: CI Pipeline
 
 on:
-  pull_request:
-    branches: [main]
+  push:
+    branches: [feature_p1]
 
 jobs:
   build:
@@ -20,3 +20,9 @@ jobs:
 
       - name: Lint Check
         run: npm run lint || echo "No lint setup"
+        
+      - name: Run tests
+        run: npm test
+
+      - name: Type check
+        run: npm run type-check || echo "No TS"
